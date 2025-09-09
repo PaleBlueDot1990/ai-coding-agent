@@ -1,0 +1,10 @@
+[project]
+name = "ai-coding-agent"
+version = "0.1.0"
+description = "A prototype of an ai code agent like Claude Code"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-genai==1.12.1",
+    "python-dotenv==1.1.0",
+]
